@@ -16,7 +16,7 @@ public class MyFileUpload {
 		
 		List<String> list_image = new ArrayList<String>();
 		
-		for (int i = 0; i < files.length; i++) {
+		for (int i = 0; i < files.length; i++) {//dasfsdfg
 			if (!files[i].isEmpty()) {
 				String originalFilename = files[i].getOriginalFilename();
 				String name = System.currentTimeMillis() + originalFilename;
